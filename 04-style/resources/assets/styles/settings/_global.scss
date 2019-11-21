@@ -1,0 +1,5 @@
+:root {
+  @each $breakpoint-name, $breakpoint-value in $grid-breakpoints {
+    --breakpoint-#{$breakpoint-name}: #{$breakpoint-value};
+  }
+}

@@ -1,0 +1,6 @@
+body {
+  color: $brand-secondary;
+  font-family: 'Open Sans', sans-serif;
+
+  @include text-font-size();
+}

@@ -1,0 +1,16 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  @include heading-font-size(2rem);
+}
+
+h2 {
+  @include heading-font-size(1.625rem);
+}

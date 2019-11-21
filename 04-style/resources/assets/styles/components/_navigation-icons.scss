@@ -1,0 +1,9 @@
+.c-navigation-icons {
+  font-size: 20px;
+
+  &__menu-item {
+    @include no-hover-link();
+
+    margin-left: 15px;
+  }
+}

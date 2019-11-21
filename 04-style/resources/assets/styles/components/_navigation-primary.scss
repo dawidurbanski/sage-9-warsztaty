@@ -1,0 +1,18 @@
+.c-navigation-primary {
+  display: none;
+
+  @include font-headings(18px);
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+
+    a {
+      margin: 0 25px;
+      padding: 5px 0;
+    }
+  }
+}

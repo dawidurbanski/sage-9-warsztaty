@@ -1,5 +1,0 @@
-yarn remove jquery
-
-lub
-
-npm unintall jquery

@@ -1,0 +1,23 @@
+.o-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  @include media-breakpoint-up(lg) {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  &--full {
+    max-width: 100%;
+  }
+
+  &--wide {
+    max-width: 1850px;
+  }
+
+  &--narrow {
+    max-width: 850px;
+  }
+}

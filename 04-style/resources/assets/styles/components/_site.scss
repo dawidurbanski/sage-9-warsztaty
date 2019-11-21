@@ -1,0 +1,7 @@
+.c-site {
+  &__content {
+    @include media-breakpoint-up(lg) {
+      margin: 20px;
+    }
+  }
+}

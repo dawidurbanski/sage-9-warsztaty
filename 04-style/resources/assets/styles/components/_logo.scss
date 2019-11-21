@@ -1,0 +1,40 @@
+.c-logo {
+  width: 52px;
+
+  [data-id='text'] {
+    display: none;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 230px;
+
+    [data-id='text'] {
+      display: block;
+    }
+  }
+
+  // wordpress logo link
+  .custom-logo-link {
+    display: block;
+    width: 100%;
+
+    @include no-hover-link();
+  }
+
+  // wordpress logo image
+  .custom-logo {
+    width: 230px;
+
+    @include media-breakpoint-up(lg) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .c-hero--minimal & {
+    [data-id='icon'],
+    [data-id='text'] {
+      fill: $brand-secondary;
+    }
+  }
+}

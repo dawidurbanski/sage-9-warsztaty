@@ -1,0 +1,22 @@
+.c-highlight-text {
+  &__before-marker-text {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__marker {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      @include pseudo();
+
+      top: 50%;
+      right: -10px;
+      bottom: -10px;
+      left: -15px;
+      z-index: -1;
+      background: $brand-primary;
+    }
+  }
+}
