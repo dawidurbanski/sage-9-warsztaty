@@ -1,0 +1,17 @@
+yarn add prettier \
+stylelint-prettier \
+stylelint-config-prettier \
+stylelint-declaration-block-order \
+stylelint-order \
+eslint-plugin-prettier \
+eslint-config-prettier --dev
+
+lub
+
+npm intall prettier \
+stylelint-prettier \
+stylelint-config-prettier \
+stylelint-declaration-block-order \
+stylelint-order \
+eslint-plugin-prettier \
+eslint-config-prettier --dev

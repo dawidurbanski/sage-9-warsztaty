@@ -1,0 +1,79 @@
+/**
+ * WordPress Generated Classes
+ * @see http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+ */
+
+/** Media alignment */
+.alignnone {
+  max-width: 100%;
+  height: auto;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.aligncenter {
+  display: block;
+  height: auto;
+  margin: ($spacer / 2) auto;
+}
+
+.alignleft,
+.alignright {
+  height: auto;
+  margin-bottom: ($spacer / 2);
+}
+
+@media (min-width: 30rem) {
+  .alignleft {
+    float: left;
+    margin-right: ($spacer / 2);
+  }
+
+  .alignright {
+    float: right;
+    margin-left: ($spacer / 2);
+  }
+}
+
+/** Captions */
+
+// TODO: .wp-caption {}
+// TODO: .wp-caption img {}
+// TODO: .wp-caption-text {}
+
+/** Text meant only for screen readers */
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  background: #fff;
+  color: #000;
+  clip: rect(0, 0, 0, 0);
+}
+
+.wp-block-gallery {
+  margin-bottom: 1rem;
+}
+
+/** Gutenberg basic **/
+.alignwide {
+  width: auto;
+  max-width: none;
+  margin-right: -120px;
+  margin-left: -120px;
+}
+
+.alignfull {
+  width: 100vw;
+  max-width: none;
+  margin-right: calc(-100vw / 2 + 100% / 2);
+  margin-left: calc(-100vw / 2 + 100% / 2);
+}
+
+.alignfull img {
+  width: 100vw;
+}

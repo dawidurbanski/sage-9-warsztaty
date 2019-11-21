@@ -1,0 +1,14 @@
+"scripts": {
+  "build": "webpack --progress --config resources/assets/build/webpack.config.js",
+  "build:production": "webpack --progress -p --config resources/assets/build/webpack.config.js",
+  "build:profile": "webpack --progress --profile --json --config resources/assets/build/webpack.config.js",
+  "start": "webpack --hide-modules --watch --config resources/assets/build/webpack.config.js",
+  "rmdist": "rimraf dist",
+  "lint": "npm run -s lint:scripts && npm run -s lint:styles",
+  "lint:scripts": "eslint resources/assets/scripts resources/assets/admin/scripts resources/assets/build",
+  "lint:scriptsfix": "eslint resources/assets/scripts resources/assets/admin/scripts --fix",
+  "lint:stylelint": "stylelint",
+  "lint:styles": "stylelint \"resources/assets/styles/**/*.{css,sass,scss,sss,less}\" \"resources/assets/admin/styles/**/*.{css,sass,scss,sss,less}\"",
+  "lint:stylesfix": "stylelint \"resources/assets/styles/**/*.{css,sass,scss,sss,less}\" \"resources/assets/admin/styles/**/*.{css,sass,scss,sss,less}\" --fix",
+  "test": "npm run -s lint"
+},
