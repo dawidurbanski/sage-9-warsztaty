@@ -1,0 +1,1 @@
+composer require soberwp/models:1.1.0-p

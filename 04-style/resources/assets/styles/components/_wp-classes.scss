@@ -63,8 +63,11 @@
 .alignwide {
   width: auto;
   max-width: none;
-  margin-right: -120px;
-  margin-left: -120px;
+
+  @include media-breakpoint-up(lg) {
+    margin-right: -120px;
+    margin-left: -120px;
+  }
 }
 
 .alignfull {

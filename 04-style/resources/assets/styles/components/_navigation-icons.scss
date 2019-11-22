@@ -1,9 +1,14 @@
 .c-navigation-icons {
+  display: flex;
   font-size: 20px;
 
   &__menu-item {
     @include no-hover-link();
 
     margin-left: 15px;
+  }
+
+  &__icon {
+    display: block;
   }
 }

@@ -1,0 +1,5 @@
+yarn add swiper
+
+lub
+
+npm install swiper

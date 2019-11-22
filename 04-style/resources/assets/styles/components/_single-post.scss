@@ -3,7 +3,10 @@
     margin-bottom: 1em;
   }
 
-  p {
-    margin-bottom: 30px;
+  &__content {
+    h2,
+    p {
+      margin-bottom: 30px;
+    }
   }
 }
