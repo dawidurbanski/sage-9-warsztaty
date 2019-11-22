@@ -21,4 +21,8 @@ a {
   #wpadminbar a::before {
     content: none;
   }
+
+  .c-site__header-content-wrapper &::before {
+    background: $brand-secondary;
+  }
 }

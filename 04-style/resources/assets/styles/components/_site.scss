@@ -1,7 +1,16 @@
 .c-site {
+  &__header-content-wrapper {
+    background: $brand-light;
+    color: $brand-secondary;
+  }
+
   &__content {
+    padding: 50px 20px;
+  }
+
+  &__footer {
     @include media-breakpoint-up(lg) {
-      margin: 20px;
+      padding: 20px;
     }
   }
 }

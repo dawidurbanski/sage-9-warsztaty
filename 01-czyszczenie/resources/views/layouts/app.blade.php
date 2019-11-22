@@ -5,12 +5,14 @@
     @php do_action('get_header') @endphp
 
     <div class="c-site" role="document">
-      @include('partials.header')
+      <div class="c-site__header-content-wrapper">
+        @include('partials.header')
 
-      <div class="c-site__content">
-        <main class="main">
-          @yield('content')
-        </main>
+        <section class="c-site__content">
+          <main class="main">
+            @yield('content')
+          </main>
+        </section>
       </div>
 
       @include('partials.footer')
